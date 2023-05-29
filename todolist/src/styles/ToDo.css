@@ -1,0 +1,52 @@
+h2 {
+    margin: 2%;
+    transition: 0.4s;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border: 1px dashed black;
+    width: 50%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1vw;
+    transition: 0.5s;
+}
+
+li button {
+    height: 50%;
+    width: 98%;
+    border: none;
+    border-radius: 1vw;
+    color: white;
+    background-color: rgb(177, 177, 177);
+    margin: 1%;
+    padding: 3%;
+}
+
+li.done h2 {
+    text-decoration: line-through;
+    color: lightgray;
+}
+
+li button:active {
+    background-color: rgb(107, 107, 107);
+}
+
+li div {
+    text-align: right;
+    margin: 1%;
+}
+
+li span:hover {
+    cursor: pointer;
+}
+
+li input {
+    margin: 1%;
+    width: 50%;
+}
